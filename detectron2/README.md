@@ -6,7 +6,8 @@ This tutorial will show you:
 2. How to configure and set up training for rotated bounding box detection using Detectron2
 3. How to visualize predictions and labels
 
-![Labelme polygon annotations](labelmeui.png)
+![Labelme polygon annotations](https://user-images.githubusercontent.com/4254623/187641126-aeb6d5d6-849f-4a14-85ca-07358a0dab31.png)
+
 
 <p align = "center">
 We are using labelme (<a href="https://github.com/wkentaro/labelme">https://github.com/wkentaro/labelme</a>) polygon annotation to label the container ships in the images.
@@ -70,7 +71,8 @@ Install rest of the dependencies with `pip install -r requirements.txt`.
 
 ### Test the installation and visualize the dataset
 
-![Detectron2 rotated bounding boxes](labels.png)
+![Detectron2 rotated bounding boxe](https://user-images.githubusercontent.com/4254623/187641496-66eeb57a-140c-46ae-9063-73cd019d04b8.png)
+
 
 <p align = "center">
 The polygons are used to determine the rotated bounding boxes.
@@ -84,7 +86,7 @@ To run the training, run `python train_rotated_bbox.py <path-to-dataset> --num-g
 
 ## Predictions
 
-![Detectron2 predictions](predictions.png)
+![Detectron2 predictions](https://user-images.githubusercontent.com/4254623/187641601-b6df96b6-167f-43d4-ab48-300939488f04.png)
 
 <p align = "center">
 Predictions from the trained model.
